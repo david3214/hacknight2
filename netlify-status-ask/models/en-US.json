@@ -1,0 +1,30 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "netlify",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "CheckNetlifyStatusIntent",
+          "samples": [
+            "Check my build status",
+            "What is my netlify status",
+            "How is everything looking",
+            "what is my status"
+          ]
+        }
+      ]
+    }
+  }
+}

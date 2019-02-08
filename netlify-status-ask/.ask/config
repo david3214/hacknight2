@@ -1,0 +1,33 @@
+{
+  "deploy_settings": {
+    "kaleb": {
+      "skill_id": "amzn1.ask.skill.eaaf8991-b7f9-40d8-a998-8cbbef16ffe9",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "3df3242198c90158c7be98d41c58dce5"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "5e6d4d9765a01b385253f9e293fda120"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:141661579621:function:ask-custom-netlify-status-ask-default",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-netlify-status-ask-default",
+            "handler": "index.handler",
+            "revisionId": "bcde6075-b7ec-448e-9dee-16e50f366862",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    }
+  }
+}
